@@ -275,3 +275,32 @@ footer .container {
     display: flex;
 }
 /*/ FOOTER */
+
+
+
+
+
+
+ /* RESPONSIVE */
+
+ /* max-width < = 1100px  */
+ @media screen and (max-width: 1100px) {
+
+ }
+ /* /  */
+
+ /* max-width < = 700px */
+ @media screen and (max-width: 700px) {
+    
+ }
+ /* / */
+
+
+  /*max-width < = 600px */
+@media screen and (max-width: 600px) {
+
+
+
+}
+
+/*  */
