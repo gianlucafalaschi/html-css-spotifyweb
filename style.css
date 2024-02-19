@@ -20,6 +20,21 @@ body {
 
 /*/ */
 
+/* MARGIN */
+.mrg-right-10 {
+    margin-right: 10px;
+}
+
+.mrg-bottom-10 {
+    margin-bottom: 10px;
+}
+.mrg-bottom-20 {
+    margin-bottom: 20px;
+}
+
+
+/*  */
+
 /* COLOR */
 .bg-black {
     background-color: #000000;
@@ -153,14 +168,27 @@ main .container {
     flex-wrap: nowrap;
 }
 
+#aside .box-menu .icon {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+#aside .box-menu .icon-books {
+    display: inline-block;
+}
+
 #aside .playlist-main .btn-secondary {
     background-color:#A3A3A3 ;
     font-size: 30px;
-    vertical-align: middle;
+    vertical-align: sub;
 }
 
 .playlist-list {
     overflow-y: auto;
+}
+
+.playlist-list ul li {
+    margin-bottom: 20px;
 }
 
 #aside .installation {
@@ -193,6 +221,8 @@ main .container {
     border-top: 2px solid #717171 ;
     padding-top: 10px;
 }
+
+
 
 /*/ */
 
