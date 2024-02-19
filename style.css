@@ -150,6 +150,7 @@ main .container {
     display: flex;
     flex-direction: column;
     height: calc(100vh - 180px);
+    flex-wrap: nowrap;
 }
 
 #aside .playlist-main .btn-secondary {
@@ -231,6 +232,8 @@ footer {
     width: 100%;
     height:90px;
     background-color: #282828;
+    position: relative;
+    z-index: 1000;
 }
 
 footer .container {
