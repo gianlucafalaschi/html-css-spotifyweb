@@ -133,13 +133,18 @@ main .container {
 
 #aside .box {
     width:224px;
-/*     padding: 18px 0 5px 16px;
- */}
-
-#aside .box {
     background-color: #000000;
+    padding: 0px 0 0px 16px;
 }
 
+#aside li {
+    list-style: none;
+}
+
+#aside .box-menu {
+    display: flex;
+    flex-direction: column;
+}
 
 /*/ */
 
@@ -163,6 +168,8 @@ main .container {
     margin-top: 19px;
     margin-bottom: 26px;
 }
+
+
 
 /* */
 
