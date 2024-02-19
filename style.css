@@ -139,7 +139,7 @@ main .container {
 #aside .box {
     width:224px;
     background-color: #000000;
-    padding: 0px 0 0px 16px;
+    padding: 0px 16px 0px 16px;
 }
 
 #aside li {
@@ -149,6 +149,7 @@ main .container {
 #aside .box-menu {
     display: flex;
     flex-direction: column;
+    height: calc(100vh - 180px);
 }
 
 #aside .playlist-main .btn-secondary {
@@ -168,6 +169,24 @@ main .container {
     font-size: 10px;
     margin-right: 10px;
 }
+
+.installation .icon {
+    margin-right: 10px;
+    background-color:#808080;
+    border-radius: 20px;
+    padding: 4px 6px;
+}
+
+.installation a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#aside .username {
+    border-top: 2px solid #717171 ;
+    padding-top: 10px;
+}
+
 /*/ */
 
 /* CONTENT */
