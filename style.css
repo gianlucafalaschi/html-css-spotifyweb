@@ -116,6 +116,10 @@ main .container {
 
 /* ASIDE */
 
+#aside {
+    margin-left: -10px;
+}
+
 #aside .upper-box-logo {
     height: 90px;
     display: flex;
@@ -143,7 +147,8 @@ main .container {
 
 #content {
     display: flex;
-    width:calc(100% - 224px);
+    width:100%;
+    margin-right: -10px;
 }
 
 #content .upper-box {
