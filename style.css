@@ -162,6 +162,12 @@ main .container {
     overflow-y: auto;
 }
 
+#aside .installation {
+    margin-top: auto;
+    margin-bottom: 10px;
+
+}
+
 .arrow {
     border: 1px solid white;
     padding: 1px 5px;
