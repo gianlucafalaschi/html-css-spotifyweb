@@ -60,10 +60,10 @@ body {
 /* GENERAL */
 
 .container {
-/*     height: calc(100vh - 90px);
- */    width: 100%;
-/* /   max-width: 1170px;
- */    margin: 0 auto;
+
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
     display: flex;
@@ -129,6 +129,11 @@ main .container {
 /*/ */
 
 /* CONTENT */
+
+#content {
+    display: flex;
+}
+
 #content .upper-box {
     height: 90px;
     display: block;
@@ -147,7 +152,7 @@ main .container {
 footer {
     width: 100%;
     height:90px;
-    background-color: aqua;
+    background-color: #282828;
 }
 
 footer .container {
