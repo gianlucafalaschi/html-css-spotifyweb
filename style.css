@@ -157,6 +157,17 @@ main .container {
     vertical-align: middle;
 }
 
+.playlist-list {
+    overflow-y: auto;
+}
+
+.arrow {
+    border: 1px solid white;
+    padding: 1px 5px;
+    border-radius: 50%;
+    font-size: 10px;
+    margin-right: 10px;
+}
 /*/ */
 
 /* CONTENT */
