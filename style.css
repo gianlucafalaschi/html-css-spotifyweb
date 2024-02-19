@@ -116,10 +116,22 @@ main .container {
 /* / */
 
 /* ASIDE */
+
+#aside .upper-box-logo {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding:0 0 0 16px ;
+}
+
+#aside .upper-box-logo img {
+    max-width: 132px;
+}
+
 #aside .box {
     width:224px;
-    padding: 18px 0 5px 16px;
-}
+/*     padding: 18px 0 5px 16px;
+ */}
 
 #aside .box {
     background-color: #000000;
@@ -132,13 +144,21 @@ main .container {
 
 #content {
     display: flex;
+    width:calc(100% - 224px);
 }
 
 #content .upper-box {
     height: 90px;
-    display: block;
+    width:100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
+#content .upper-box > .btn-primary {
+    margin-top: 19px;
+    margin-bottom: 26px;
+}
 
 /* */
 
