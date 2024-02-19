@@ -7,3 +7,58 @@
 }
 /*  */
 
+/* DEBUG */
+.db {
+    border: 1px dashed white;
+}
+/*  */
+
+/* TYPOGRAPHY */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*/ */
+
+/* BUTTONS */
+.btn {
+    font-size: 16px;
+    font-family: "PT Sans", sans-serif; 
+    cursor: pointer;
+}
+
+/* / */
+
+/* GENERAL */
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.col {
+    padding: 0 15px
+}
+
+/*  */
+
+/* COMMON */
+img {
+    max-width: 100%;
+}
+
+.card {
+    padding: 20px;
+}
+
+/*  */
+
