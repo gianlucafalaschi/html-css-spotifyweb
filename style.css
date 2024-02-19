@@ -79,7 +79,10 @@ main {
 }
 /*/ ASIDE */
 
-
+/* MAIN CONTENT */
+#main-content {
+    overflow-y: auto;
+}
 
 
 
