@@ -9,14 +9,14 @@
 
 /* DEBUG */
 .db {
-    border: 1px dashed white;
+    border: 1px dashed purple;
 }
 /*  */
 
 /* TYPOGRAPHY */
 body {
   font-family: "Montserrat", sans-serif;
-}
+} 
 
 /*/ */
 
@@ -32,10 +32,13 @@ body {
 /* GENERAL */
 
 .container {
-    max-width: 1170px;
-    margin: 0 auto;
+    height: calc(100vh - 90px);
+    width: 100%;
+    /* max-width: 1170px;
+    margin: 0 auto; */
     padding-left: 10px;
     padding-right: 10px;
+    display: flex;
 }
 
 .row {
@@ -46,7 +49,9 @@ body {
 }
 
 .col {
-    padding: 0 15px
+    padding: 0 15px;
+    background-color: azure;
+    
 }
 
 /*  */
@@ -62,3 +67,27 @@ img {
 
 /*  */
 
+/* MAIN */
+main {
+    width: 100%;
+}
+/* MAIN */
+
+/* ASIDE */
+#aside {
+    background-color: bisque;
+}
+/*/ ASIDE */
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    width: 100%;
+    height:90px;
+    background-color: aqua;
+}
+/*/ FOOTER */
