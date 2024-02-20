@@ -320,6 +320,18 @@ main .container {
     font-weight: bold;
 }
 
+.main-content-box .list-title {
+    width: 100%;
+}
+
+.main-content-box .list-description {
+    color: #7D7F84;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 
 
 /* */
