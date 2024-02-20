@@ -243,6 +243,12 @@ main .container {
     margin-right: -10px;
 }
 
+#content {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
 #content .upper-box {
     height: 90px;
     width:100%;
@@ -256,11 +262,7 @@ main .container {
     margin-bottom: 26px;
 }
 
-#content {
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
-}
+
 
 #content .main-content-box {
     margin:  0 auto;
