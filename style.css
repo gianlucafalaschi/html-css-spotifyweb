@@ -106,7 +106,6 @@ body {
 
 .col {
     padding: 0 15px;
-    background-color: brown;
 }
 
 /*  */
@@ -307,6 +306,10 @@ main .container {
 
 .main-content-box .album-image {
     margin-bottom: 10px;
+}
+
+.main-content-box .album-image-circle {
+    border-radius:50% ;
 }
 
 .main-content-box .col .title {
