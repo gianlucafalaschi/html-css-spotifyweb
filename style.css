@@ -138,6 +138,7 @@ main .container {
 
 #aside {
     margin-left: -10px;
+    overflow: hidden;
 }
 
 #aside .upper-box-logo {
