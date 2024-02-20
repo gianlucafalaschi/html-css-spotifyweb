@@ -282,6 +282,8 @@ main .container {
     display: flex;
     list-style: none;
     justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 15px;
     
 }
 
@@ -291,7 +293,7 @@ main .container {
 }
 
 #content .row-nav ul li {
-    padding: 0 10px;
+    padding: 0 15px 20px 15px;
 }
 
 /* */
