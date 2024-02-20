@@ -267,6 +267,7 @@ main .container {
     overflow-y: auto;
     height: calc(100vh - 180px);
     width: 100%;
+    padding-top:20px ;
 }
 
 #content .row-nav {
@@ -279,6 +280,12 @@ main .container {
     display: flex;
     list-style: none;
     justify-content: center;
+    
+}
+
+#content .row-nav a {
+    color: #7D7F84 ;
+    text-decoration: none;
 }
 
 #content .row-nav ul li {
