@@ -124,9 +124,8 @@ img {
 /* MAIN */
 main .container {
     height: calc(100vh - 90px);
-    width: 100%;
-/*     max-width: 1170px;
- */    margin: 0 auto;
+    width: 100%;     
+    margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
     display: flex;
@@ -140,6 +139,7 @@ main .container {
     margin-left: -10px;
     overflow: hidden;
     width: 224px;
+    flex-shrink: 0;
 }
 
 #aside .upper-box-logo {
@@ -171,6 +171,8 @@ main .container {
     flex-direction: column;
     height: calc(100vh - 180px);
     flex-wrap: nowrap;
+    color: #7D7F84;
+    font-weight: bold;
 }
 
 #aside .box-menu .icon {
@@ -220,6 +222,8 @@ main .container {
 .installation a {
     display: block;
     margin-bottom: 10px;
+    text-decoration: none;
+    color: inherit;
 }
 
 #aside .username {
@@ -263,6 +267,22 @@ main .container {
     overflow-y: auto;
     height: calc(100vh - 180px);
     width: 100%;
+}
+
+#content .row-nav {
+    width: 100%;
+    font-weight: bold;
+    color:#7D7F84 ;
+}
+
+#content .row-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+#content .row-nav ul li {
+    padding: 0 10px;
 }
 
 /* */
@@ -316,6 +336,7 @@ footer .container {
 @media screen and (max-width: 600px) {
     #aside {
         width: 55px;
+        text-align: center;
     }
 
     #aside .box {
@@ -339,7 +360,17 @@ footer .container {
         display: none;
     }
 
+    #aside .username {
+        border-top: 0;
+    }
 
+    #aside .box-menu .icon {
+        margin-right: 0;
+    }
+
+    .arrow {
+        margin-right: 0;
+    }
 }
 
 /*  */
