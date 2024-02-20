@@ -104,8 +104,7 @@ body {
 
 .col {
     padding: 0 15px;
-    background-color: azure;
-    
+    background-color: brown;
 }
 
 /*  */
@@ -271,6 +270,7 @@ main .container {
     width: 100%;
     padding-top:20px ;
     align-content: flex-start;
+    background-color: #141922;
 }
 
 #content .row-nav {
@@ -301,6 +301,24 @@ main .container {
     width: calc(100% / 6);
     margin-bottom: 10px;
 }
+
+.main-content-box .album-image {
+    margin-bottom: 10px;
+}
+
+.main-content-box .col .title {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.main-content-box .col .subtitle {
+    color: #7D7F84;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
 
 /* */
 
