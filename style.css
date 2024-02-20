@@ -300,6 +300,7 @@ main .container {
 .row-recent .col {
     width: calc(100% / 6);
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .main-content-box .album-image {
