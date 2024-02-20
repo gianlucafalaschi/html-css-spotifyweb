@@ -146,11 +146,15 @@ main .container {
     height: 90px;
     display: flex;
     align-items: center;
-    padding:0 0 0 16px ;
 }
 
-#aside .upper-box-logo img {
+#aside .upper-box-logo .logo {
     max-width: 132px;
+}
+
+#aside .upper-box-logo .logo-small {
+    display: none;
+    max-width: 20px;
 }
 
 #aside .box {
@@ -314,6 +318,26 @@ footer .container {
         width: 55px;
     }
 
+    #aside .box {
+        padding: 0;
+    }
+
+    #aside .upper-box-logo .logo {
+        display: none;
+    }
+
+    #aside .upper-box-logo .logo-small {
+        display: block;
+        max-width: 33px;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+
+    .playlist-main, .playlist-list {
+        display: none;
+    }
 
 
 }
