@@ -139,6 +139,7 @@ main .container {
 #aside {
     margin-left: -10px;
     overflow: hidden;
+    width: 224px;
 }
 
 #aside .upper-box-logo {
@@ -153,7 +154,6 @@ main .container {
 }
 
 #aside .box {
-    width:224px;
     background-color: #000000;
     padding: 0px 16px 0px 16px;
 }
@@ -258,6 +258,7 @@ main .container {
     margin:  0 auto;
     overflow-y: auto;
     height: calc(100vh - 180px);
+    width: 100%;
 }
 
 /* */
@@ -309,6 +310,9 @@ footer .container {
 
   /*max-width < = 600px */
 @media screen and (max-width: 600px) {
+    #aside {
+        width: 55px;
+    }
 
 
 
