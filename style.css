@@ -166,6 +166,10 @@ main .container {
     list-style: none;
 }
 
+#aside li:hover {
+    color: white;
+}
+
 #aside .box-menu {
     display: flex;
     flex-direction: column;
@@ -174,6 +178,8 @@ main .container {
     color: #7D7F84;
     font-weight: bold;
 }
+
+
 
 #aside .box-menu .icon {
     font-size: 22px;
@@ -184,10 +190,16 @@ main .container {
     display: inline-block;
 }
 
+
+
 #aside .playlist-main .btn-secondary {
     background-color:#A3A3A3 ;
     font-size: 30px;
     vertical-align: sub;
+}
+
+#aside .playlist-main .btn-secondary:hover {
+    background-color: white;
 }
 
 .playlist-list {
@@ -224,6 +236,10 @@ main .container {
     margin-bottom: 10px;
     text-decoration: none;
     color: inherit;
+}
+
+.app-download:hover {
+    color: white;
 }
 
 #aside .username {
@@ -296,6 +312,9 @@ main .container {
 #content .row-nav a {
     color: #7D7F84 ;
     text-decoration: none;
+}
+#content .row-nav a:hover{
+    color: white;
 }
 
 #content .row-nav ul li {
@@ -416,6 +435,10 @@ footer .container {
     font-weight: bold;
 }
 
+.footer-left .subtitle:hover {
+    color: white;
+}
+
 .footer-left .song-played {
     margin-right: 38px;
 }
@@ -424,6 +447,10 @@ footer .container {
     padding-right: 10px;
     color:#7D7F84 ;
     font-size: 20px;
+}
+
+.footer-left .favourite-folder i:hover {
+    color: white;
 }
 
 .footer-center {
@@ -447,11 +474,12 @@ footer .container {
 
 .footer-center .buttons-box i.central {
     font-size: 35px;
-    padding: 0 20px;
+    padding: 0px 20px;
 }
 
 .footer-center .buttons-box i.central:hover {
-    font-size: 36px;
+    font-size: 35.5px;
+    
 }
 
 .footer-center .time-box {
@@ -574,6 +602,9 @@ footer .container {
 
     #aside .box {
         padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     #aside .upper-box-logo .logo {
