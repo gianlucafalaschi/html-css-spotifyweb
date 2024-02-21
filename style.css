@@ -308,8 +308,9 @@ main .container {
     margin-bottom: 10px;
 }
 
-.main-content-box .album-image-circle {
+.main-content-box .container-image-round {
     border-radius:50% ;
+    overflow: hidden;
 }
 
 .main-content-box .col .title {
