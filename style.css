@@ -363,7 +363,30 @@ footer .container {
 }
 
 .footer-left {
-    
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-left .image-played {
+    width: 60px;
+    margin-right: 10px ;
+}
+
+.footer-left .subtitle {
+    color: #7D7F84;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-left .song-played {
+    margin-right: 38px;
+}
+
+.footer-left .favourite-folder i {
+    padding-right: 10px;
+    color:#7D7F84 ;
+    font-size: 20px;
 }
 
 
