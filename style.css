@@ -482,9 +482,9 @@ footer .container {
     background-color:#C1C1C1 ;
 }
 
-.footer-center .bar-inside:hover {
+.footer-center .bar:hover .bar-inside {
     background-color: #c7f27b;
-}
+} 
 
 
 
@@ -517,7 +517,7 @@ footer .container {
     background-color:#C1C1C1 ;
 }
 
-.footer-right .bar-inside:hover {
+.footer-right .bar:hover .bar-inside {
     background-color: #c7f27b;
 }
 
