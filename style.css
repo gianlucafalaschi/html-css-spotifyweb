@@ -367,7 +367,7 @@ main .container {
  }
 
 .album-card:hover .container-image-hover {
-    display: flex;
+    opacity: 1;
 }
 
 /* */
