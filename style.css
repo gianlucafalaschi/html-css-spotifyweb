@@ -357,7 +357,7 @@ main .container {
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: 0.4 opacity;
+    transition: 0.4s opacity;
 }
 
 .container-image-hover i {
