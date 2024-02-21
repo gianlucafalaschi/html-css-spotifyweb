@@ -391,6 +391,8 @@ footer .container {
 
 .footer-center {
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-center .buttons-box {
@@ -409,6 +411,36 @@ footer .container {
     font-size: 35px;
     padding: 0 20px;
 }
+
+.footer-center .time-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-center .time-box .time-progress, 
+.footer-center .time-box .total-time {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer-center .bar {
+    height: 3px;
+    width: 20%;
+    min-width:84px ;
+    background-color:#7D7F84 ;
+}
+
+.footer-center .bar-inside {
+    height:100%;
+    width: 30%;
+    background-color:#C1C1C1 ;
+}
+
+
 
 
 
