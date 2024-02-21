@@ -337,6 +337,38 @@ main .container {
 }
 
 
+.container-image {
+    position: relative;
+}
+
+.container-image img {
+    display: block;
+}
+
+.container-image-hover {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 0, 0,0.5);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.4 opacity;
+}
+
+.container-image-hover i {
+/*     height: 60px; */
+    color: white;
+    font-size: 40px;
+ }
+
+.album-card:hover .container-image-hover {
+    display: flex;
+}
 
 /* */
 
