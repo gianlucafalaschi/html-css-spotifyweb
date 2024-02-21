@@ -504,8 +504,16 @@ footer .container {
         width: calc(100% / 2);
     }
 
+    .footer-left .song-played {
+        margin-right:15px ;
+    }
+
     .footer-right i {
         padding: 5px;
+    }
+
+    .footer-right .bar {
+        min-width: 40%;
     }
     
  }
