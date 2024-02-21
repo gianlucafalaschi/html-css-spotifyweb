@@ -430,8 +430,7 @@ footer .container {
 
 .footer-center .bar {
     height: 3px;
-    width: 65%;
-    min-width:84px ;
+    min-width: 65%;
     background-color:#7D7F84;
     
 }
@@ -565,9 +564,6 @@ footer .container {
         width: calc(100% / 2);
     }
 
-    .footer-left .song-played {
-        margin-right: 25px;
-    }
 
 
 }
