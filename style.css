@@ -389,6 +389,28 @@ footer .container {
     font-size: 20px;
 }
 
+.footer-center {
+    width: 100%;
+}
+
+.footer-center .buttons-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  
+}
+
+.footer-center .buttons-box i {
+    font-size: 20px;
+    padding: 0 14px;
+}
+
+.footer-center .buttons-box i.central {
+    font-size: 35px;
+    padding: 0 20px;
+}
+
+
 
 .footer-right {
     display: flex;
